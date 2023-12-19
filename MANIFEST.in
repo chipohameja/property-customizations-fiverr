@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include property_customizations *.css
+recursive-include property_customizations *.csv
+recursive-include property_customizations *.html
+recursive-include property_customizations *.ico
+recursive-include property_customizations *.js
+recursive-include property_customizations *.json
+recursive-include property_customizations *.md
+recursive-include property_customizations *.png
+recursive-include property_customizations *.py
+recursive-include property_customizations *.svg
+recursive-include property_customizations *.txt
+recursive-exclude property_customizations *.pyc
