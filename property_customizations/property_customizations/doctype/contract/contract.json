@@ -1,0 +1,155 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-21 02:47:56.196819",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "contract_title",
+  "contract_type",
+  "contract_start_date",
+  "contract_end_date",
+  "contract_term",
+  "parties_section",
+  "service_provider",
+  "terms_and_conditions_section",
+  "rental_amount",
+  "security_deposit",
+  "renewal_terms",
+  "termination_clause",
+  "maintenance_responsibilities",
+  "insurance_requirements",
+  "pets_and_restrictions",
+  "access_and_entry",
+  "property_details_section",
+  "property_address",
+  "property_description"
+ ],
+ "fields": [
+  {
+   "fieldname": "contract_title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Contract Title",
+   "reqd": 1
+  },
+  {
+   "fieldname": "contract_type",
+   "fieldtype": "Select",
+   "label": "Contract Type",
+   "options": "Lease Agreement\nMaintenance Agreement"
+  },
+  {
+   "fieldname": "contract_start_date",
+   "fieldtype": "Date",
+   "label": "Contract Start Date"
+  },
+  {
+   "fieldname": "contract_end_date",
+   "fieldtype": "Date",
+   "label": "Contract End Date"
+  },
+  {
+   "fieldname": "contract_term",
+   "fieldtype": "Select",
+   "label": "Contract Term",
+   "options": "Months\nYears"
+  },
+  {
+   "fieldname": "parties_section",
+   "fieldtype": "Section Break",
+   "label": "Parties"
+  },
+  {
+   "fieldname": "service_provider",
+   "fieldtype": "Data",
+   "label": "Service Provider"
+  },
+  {
+   "fieldname": "terms_and_conditions_section",
+   "fieldtype": "Section Break",
+   "label": "Terms and Conditions"
+  },
+  {
+   "fieldname": "rental_amount",
+   "fieldtype": "Currency",
+   "label": "Rental Amount"
+  },
+  {
+   "fieldname": "security_deposit",
+   "fieldtype": "Currency",
+   "label": "Security Deposit"
+  },
+  {
+   "fieldname": "renewal_terms",
+   "fieldtype": "Text Editor",
+   "label": "Renewal Terms"
+  },
+  {
+   "fieldname": "termination_clause",
+   "fieldtype": "Text Editor",
+   "label": "Termination Clause"
+  },
+  {
+   "fieldname": "maintenance_responsibilities",
+   "fieldtype": "Text Editor",
+   "label": "Maintenance Responsibilities"
+  },
+  {
+   "fieldname": "insurance_requirements",
+   "fieldtype": "Text Editor",
+   "label": "Insurance Requirements"
+  },
+  {
+   "fieldname": "pets_and_restrictions",
+   "fieldtype": "Text Editor",
+   "label": "Pets and Restrictions"
+  },
+  {
+   "fieldname": "access_and_entry",
+   "fieldtype": "Text Editor",
+   "label": "Access and Entry"
+  },
+  {
+   "fieldname": "property_details_section",
+   "fieldtype": "Section Break",
+   "label": "Property Details"
+  },
+  {
+   "fieldname": "property_address",
+   "fieldtype": "Data",
+   "label": "Property Address"
+  },
+  {
+   "fieldname": "property_description",
+   "fieldtype": "Text Editor",
+   "label": "Property Description"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-12-21 09:44:00.117812",
+ "modified_by": "Administrator",
+ "module": "Property Customizations",
+ "name": "Contract",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
