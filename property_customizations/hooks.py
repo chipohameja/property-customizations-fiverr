@@ -102,13 +102,21 @@ app_license = "MIT"
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
+doc_events = {
+	"Contract": {
+		"before_submit": [
+			"property_customizations.api.create_tenancy"
+		],
+		"on_cancel": [
+			"property_customizations.api.cancel_contract"
+		]
+	}
 #	"*": {
 #		"on_update": "method",
 #		"on_cancel": "method",
 #		"on_trash": "method"
 #	}
-# }
+}
 
 # Scheduled Tasks
 # ---------------
